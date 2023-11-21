@@ -1,16 +1,18 @@
 document.getElementById('calcola').addEventListener('click', function(){
 
-    userFullName = document.getElementById('userfullname').value;
+    const userFullName = document.getElementById('userfullname').value;
     console.log(userFullName);
 
-    userKm = parseInt(document.getElementById('userkm').value);
+    const userKm = parseInt(document.getElementById('userkm').value);
     console.log(userKm);
 
-    userAge = parseInt(document.getElementById('userage').value);
+    const userAge = document.getElementById('userage').value;
     console.log(userAge);
 })
 
 
+
+//document.querySelector(".d-none").classList.remove('d-none');
 
 
 
