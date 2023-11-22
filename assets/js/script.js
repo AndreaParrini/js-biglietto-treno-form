@@ -90,6 +90,8 @@ document.getElementById('annulla').addEventListener('click', function(){
     document.getElementById('userkm').value = "";
 
     document.getElementById('userage').value = "";
+
+    document.getElementById("sectionTicket").classList.add('d-none');
 })
 
 
